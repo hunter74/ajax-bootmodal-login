@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ajax BootModal Login\n"
-"POT-Creation-Date: 2014-06-23 00:26+0330\n"
-"PO-Revision-Date: 2014-06-23 00:26+0330\n"
+"POT-Creation-Date: 2014-08-25 18:01+0330\n"
+"PO-Revision-Date: 2014-08-25 18:01+0330\n"
 "Last-Translator: Alimir <info@alimir.ir>\n"
 "Language-Team: Ali Mirzaei <info@alimir.ir>\n"
 "Language: fa_IR\n"
@@ -237,11 +237,11 @@ msgstr "لینک تغییر مسیر ورود"
 msgid "Registration redirect URL"
 msgstr "لینک تغییر مسیر عضویت"
 
-#: ../inc/settings.php:141
+#: ../inc/settings.php:143
 msgid "Like this plugin?"
 msgstr "از این افزونه خوشتون اومد؟"
 
-#: ../inc/settings.php:143
+#: ../inc/settings.php:146
 msgid ""
 "Show your support by Rating 5 Star in <a href=\"http://wordpress.org/plugins/"
 "ajax-bootmodal-login\"> Plugin Directory reviews</a>"
@@ -249,14 +249,14 @@ msgstr ""
 "با امتیاز 5 ستاره  در <a href=\"http://wordpress.org/plugins/ajax-bootmodal-"
 "login\">مخزن وردپرس</a> از این افزونه حمایت کنید..."
 
-#: ../inc/settings.php:144
+#: ../inc/settings.php:147
 msgid ""
 "Follow me on <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>"
 msgstr ""
 "دنیای وردپرس و برنامه نویسی را در  <a href=\"https://www.facebook.com/alimir."
 "ir\"> فیسبوک</a> دنبال کنید..."
 
-#: ../inc/settings.php:147
+#: ../inc/settings.php:148
 msgid ""
 "Plugin Author Blog: <a href=\"http://alimir.ir\"> Wordpress & Programming "
 "World.</a>"

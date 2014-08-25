@@ -138,14 +138,18 @@ function alimir_bootModal_settings_page() {
         </tr>
 		
     </table>
-	<h2><?php _e('Like this plugin?','alimir'); ?></h2>
+	<div id="poststuff" class="ui-sortable meta-box-sortables">
+		<div class="postbox">	
+		<h3><?php _e('Like this plugin?','alimir'); ?></h3>
+		<div class="inside">
 		<p>
 		<?php _e('Show your support by Rating 5 Star in <a href="http://wordpress.org/plugins/ajax-bootmodal-login"> Plugin Directory reviews</a>','alimir'); ?><br />
-		<?php _e('Follow me on <a href="https://www.facebook.com/alimir.ir"> Facebook</a>','alimir'); ?>
-		</p>
-		<p class="update-nag">
+		<?php _e('Follow me on <a href="https://www.facebook.com/alimir.ir"> Facebook</a>','alimir'); ?><br />
 		<?php _e('Plugin Author Blog: <a href="http://alimir.ir"> Wordpress & Programming World.</a>','alimir'); ?>
 		</p>
+		</div>
+		</div>
+	</div>	
     <?php submit_button(); ?>
 
 </form>

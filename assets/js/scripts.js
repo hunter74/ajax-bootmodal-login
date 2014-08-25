@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
 					$('#wp-submit').button('reset');
 					$('form#login div.status').html(data.message).fadeIn();
 					if (data.loggedin == true){
-						document.location.href = ajax_login_object.loginRedirectURL;
+						window.location.href = ajax_login_object.loginRedirectURL;
 					}
 				}
 			});
@@ -52,7 +52,7 @@ jQuery(document).ready(function($) {
 					$('#pass-submit').button('reset');
 					$('form#regform div.status').html(data.message).fadeIn();
 					if (data.registered == true && ajax_login_object.registerRedirectURL!=''){
-						document.location.href = ajax_login_object.registerRedirectURL;
+						window.location.href = ajax_login_object.registerRedirectURL;
 					}					
 				}
 			});

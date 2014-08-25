@@ -4,8 +4,8 @@ Donate link: http://alimir.ir
 Author: Ali Mirzaei
 Tags: login,wordpress Login,Wordpress ABM-Login Plugin,ABM Login,bootstrap login form,custom login widget,wordpress modal login,wp ajax login,wordpress login with bootstrap,ajaxy
 Requires at least: 3.1
-Tested up to: 3.9.1
-Stable tag: 1.2.3
+Tested up to: 3.9.2
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,10 +28,17 @@ Ajax BootModal Login is a WordPress plugin that is powered by bootstrap and ajax
 = How To Use This Plugin?!? =
 * Just install the plugin and use `[Alimir_BootModal_Login]` shortcode or drag `Ajax BootModal Login` widget in widget area.
 
-= Plugin Author =
-Read more: <a href="http://preview.alimir.ir/whats-going-on-ajax-bootmodal-login-1-2-2/" target="_blank">WHAT’S GOING ON AJAX BOOTMODAL LOGIN?</a><br />
-My personal website: <a href="http://about.alimir.ir" target="_blank">Ali Mirzaei</a><br />
-Follow me on <a href="https://www.facebook.com/alimir.ir" target="_blank">Facebook</a>
+= Translators =
+
+*   English
+*   Persian
+*   Chinese (Thanks suifengtec)
+*   Spanish (Thanks Leandro)
+
+= Support =
+Website: <a href="http://preview.alimir.ir/whats-going-on-ajax-bootmodal-login-1-2-2/" target="_blank">What's going on Ajax Bootmodal Login?</a><br />
+Plugin Author: <a href="http://about.alimir.ir" target="_blank">Ali Mirzaei</a><br />
+Follow me on: <a href="https://www.facebook.com/alimir.ir" target="_blank">Facebook</a>
 
 == Installation ==
 
@@ -43,6 +50,11 @@ Follow me on <a href="https://www.facebook.com/alimir.ir" target="_blank">Facebo
 Screenshots are available in <a href="http://preview.alimir.ir/ajax-bootmodal-login-plugin/" target="_blank">here</a>
 
 == Changelog ==
+
+= 1.2.4 =
+* Added Spanish (es_ES) language. (Thanks to Leandro)
+* Update Chinese (ZH_CN) language. (Thanks to suifengtec)
+* Removed default admin_url link in the login redirection.
 
 = 1.2.3 =
 * Added Chinese (ZH_CN) language.
@@ -83,6 +95,9 @@ Screenshots are available in <a href="http://preview.alimir.ir/ajax-bootmodal-lo
 * The initial version
 
 == Upgrade Notice ==
+
+= 1.2.4 =
+Update Chinese Language + Added Spanish Language
 
 = 1.2.3 =
 Added Chinese (ZH_CN) language.
