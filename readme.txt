@@ -4,8 +4,8 @@ Donate link: http://alimir.ir
 Author: Ali Mirzaei
 Tags: login,wordpress Login,Wordpress ABM-Login Plugin,ABM Login,bootstrap login form,custom login widget,wordpress modal login,wp ajax login,wordpress login with bootstrap,ajaxy
 Requires at least: 3.1
-Tested up to: 3.9.2
-Stable tag: 1.2.4
+Tested up to: 4.0
+Stable tag: 1.4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,9 @@ Follow me on: <a href="https://www.facebook.com/alimir.ir" target="_blank">Faceb
 Screenshots are available in <a href="http://preview.alimir.ir/ajax-bootmodal-login-plugin/" target="_blank">here</a>
 
 == Changelog ==
+
+= 1.4.0 =
+* Wordpress 4.0 ready
 
 = 1.2.4 =
 * Added Spanish (es_ES) language. (Thanks to Leandro)
