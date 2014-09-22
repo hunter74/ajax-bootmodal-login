@@ -84,30 +84,15 @@ jQuery(document).ready(function($) {
 	});
 	// refresh login captcha
 	$("#login_captcha_img").click(function() {
-    $.ajax({
-    url: ajax_login_object.captchaLink + "log-captcha.php",
-    success: function(result) {
-        $("#login_captcha_img").attr("src",ajax_login_object.captchaLink + "log-captcha.php");
-    }
-	});
+		document.getElementById('login_captcha_img').src=ajax_login_object.captchaLink + "log-captcha.php";
 	});
 	// refresh register captcha
 	$("#register_captcha_img").click(function() {
-    $.ajax({
-    url: ajax_login_object.captchaLink + "reg-captcha.php",
-    success: function(result) {
-        $("#register_captcha_img").attr("src",ajax_login_object.captchaLink + "reg-captcha.php");
-    }
-	});
+		document.getElementById('register_captcha_img').src=ajax_login_object.captchaLink + "reg-captcha.php";
 	});
 	// refresh lostpass captcha
 	$("#lostpass_captcha_img").click(function() {
-    $.ajax({
-    url: ajax_login_object.captchaLink + "lost-captcha.php",
-    success: function(result) {
-        $("#lostpass_captcha_img").attr("src",ajax_login_object.captchaLink + "lost-captcha.php");
-    }
-	});
+		document.getElementById('lostpass_captcha_img').src=ajax_login_object.captchaLink + "lost-captcha.php";
 	});
 	// enable tooltip
 	$(function () {

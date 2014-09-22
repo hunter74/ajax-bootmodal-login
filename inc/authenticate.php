@@ -15,7 +15,7 @@ function alimir_bootModal_ajax_login_init(){
         'ajaxurl' => admin_url( 'admin-ajax.php' ),
         'loginRedirectURL' => get_option('alimir_login_redirect')=='' ? '' : get_option('alimir_login_redirect'),
         'registerRedirectURL' => get_option('alimir_register_redirect')=='' ? '' : get_option('alimir_register_redirect'),
-        'captchaLink' => plugins_url( '../tmp/captcha/' , __FILE__ )
+        'captchaLink' => plugins_url( 'tmp/captcha/' , dirname(__FILE__) )
     ));
 
     add_action( 'wp_ajax_nopriv_ajaxregister', 'alimir_bootModal_ajax_registration' );

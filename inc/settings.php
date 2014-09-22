@@ -17,6 +17,7 @@ function alimir_bootModal_register_mysettings() {
 	register_setting( 'alimir-bootModal-settings-group', 'enable_login_captcha' );	
 	register_setting( 'alimir-bootModal-settings-group', 'enable_register_captcha' );	
 	register_setting( 'alimir-bootModal-settings-group', 'enable_lostpass_captcha' );	
+	register_setting( 'alimir-bootModal-settings-group', 'captcha_font' );	
 	register_setting( 'alimir-bootModal-settings-group', 'default_buttons' );
 	register_setting( 'alimir-bootModal-settings-group', 'default_sizes' );
 	register_setting( 'alimir-bootModal-settings-group', 'alimir_login_redirect' );
@@ -97,6 +98,21 @@ function alimir_bootModal_settings_page() {
         <td>
 		<input name="enable_lostpass_captcha" type="checkbox" value="1" <?php checked( '1', get_option( 'enable_lostpass_captcha' ) ); ?> />
 		<p class="description"><?php _e('This option enables captcha on lostpass form.','alimir'); ?></p>
+		</td>
+        </tr>		
+		
+        <tr valign="top">
+        <th scope="row"><?php _e('Captcha Font','alimir'); ?></th>
+        <td>
+		<select name="captcha_font">
+            <option value="1" <?php selected( get_option( 'captcha_font' ), 1 ); ?>>Blackout</option>
+            <option value="2" <?php selected( get_option( 'captcha_font' ), 2 ); ?>>1942</option>
+            <option value="3" <?php selected( get_option( 'captcha_font' ), 3 ); ?>>Anagram</option>
+            <option value="4" <?php selected( get_option( 'captcha_font' ), 4 ); ?>>axis</option>
+            <option value="5" <?php selected( get_option( 'captcha_font' ), 5 ); ?>>BPdotsSquareBold</option>
+            <option value="6" <?php selected( get_option( 'captcha_font' ), 6 ); ?>>GoodDog</option>
+		</select>
+		<p class="description"><?php _e('Select you favorite Captcha font.','alimir'); ?></p>
 		</td>
         </tr>		
 		

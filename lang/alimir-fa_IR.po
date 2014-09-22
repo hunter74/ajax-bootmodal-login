@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ajax BootModal Login\n"
-"POT-Creation-Date: 2014-08-25 18:01+0330\n"
-"PO-Revision-Date: 2014-08-25 18:01+0330\n"
+"POT-Creation-Date: 2014-09-21 10:50+0330\n"
+"PO-Revision-Date: 2014-09-21 11:01+0330\n"
 "Last-Translator: Alimir <info@alimir.ir>\n"
 "Language-Team: Ali Mirzaei <info@alimir.ir>\n"
 "Language: fa_IR\n"
@@ -15,6 +15,16 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: ..\n"
+
+#: ../alimir-bootmodal-login.php:21 ../inc/functions.php:5
+#: ../inc/widget.php:27
+msgid "Login"
+msgstr "ورود"
+
+#: ../alimir-bootmodal-login.php:22 ../inc/functions.php:11
+#: ../tmp/user-profile.php:37
+msgid "Profile"
+msgstr "پنل کاربری"
 
 #: ../inc/authenticate.php:48 ../inc/authenticate.php:81
 #: ../inc/authenticate.php:126
@@ -120,23 +130,15 @@ msgstr ""
 "ایمیل نمی‌تواند فرستاده شود.<br />دلیل ممکن: میزبان شما ممکن است تابع mail() "
 "را از کار انداخته باشد."
 
-#: ../inc/functions.php:5 ../inc/widget.php:27
-msgid "Login"
-msgstr "ورود"
-
-#: ../inc/functions.php:11 ../tmp/user-profile.php:37
-msgid "Profile"
-msgstr "پنل کاربری"
-
 #: ../inc/settings.php:5
 msgid "BootModal Login Settings"
-msgstr "افزونه فرم ورود بوت مودال"
+msgstr "فرم ورود بوت مدال"
 
-#: ../inc/settings.php:29
+#: ../inc/settings.php:30
 msgid "Alimir Ajax BootModal Login"
-msgstr "فرم ورود  Ajax BootModal Login"
+msgstr "افزونه Ajax BootModal Login"
 
-#: ../inc/settings.php:35
+#: ../inc/settings.php:36
 msgid ""
 "Using <code>[Alimir_BootModal_Login]</code> shortcode, to display ajax "
 "bootmodal login."
@@ -144,104 +146,112 @@ msgstr ""
 "جهت نمایش فرم ورود بوت مودال، از شورت کد <code>[Alimir_BootModal_Login]</"
 "code> در قالب خود استفاده کنید..."
 
-#: ../inc/settings.php:38
+#: ../inc/settings.php:39
 msgid "Non-use BootStrap modules"
 msgstr "حذف ماژول های بوت استرپ"
 
-#: ../inc/settings.php:41
+#: ../inc/settings.php:42
 msgid "If your theme support bootstrap, Check this option."
 msgstr ""
 "اگر پوسته شما از ماژولهای بوت استرپ پشتیبانی میکند، این گزینه را انتخاب کنید."
 
-#: ../inc/settings.php:46
+#: ../inc/settings.php:47
 msgid "Do you use from bootstrap +3?"
 msgstr "آیا از بوت استرپ +3 استفاده می کنید؟"
 
-#: ../inc/settings.php:49
+#: ../inc/settings.php:50
 msgid "If you use from bootstrap +3 in your theme, Check this option."
 msgstr ""
 "اگر پوسته سایت شما از نسخه +3 بوت استرپ بهره گیری کرده است، تیک این گزینه را "
 "بزنید."
 
-#: ../inc/settings.php:54
+#: ../inc/settings.php:55
 msgid "Deactivate User Panel"
 msgstr "غیر فعال کردن پنل کاربری"
 
-#: ../inc/settings.php:57
+#: ../inc/settings.php:58
 msgid "This option disables user modal profile button."
 msgstr "با انتخاب این گزینه، می توانید پروفایل کاربری افزونه را غیر فعال کنید."
 
-#: ../inc/settings.php:62
+#: ../inc/settings.php:63
 msgid "disable user registration?"
 msgstr "غیر فعال سازی بخش ثبت نام"
 
-#: ../inc/settings.php:65
+#: ../inc/settings.php:66
 msgid "This option disables user registration form."
 msgstr "با استفاده از این گزینه می توانید فرم نام نویسی را غیر فعال کنید."
 
-#: ../inc/settings.php:70
+#: ../inc/settings.php:71
 msgid "Login Button Text"
 msgstr "متن دکمه ورود"
 
-#: ../inc/settings.php:75
+#: ../inc/settings.php:76
 msgid "Profile Button Text"
 msgstr "متن دکمه پروفایل"
 
-#: ../inc/settings.php:80
+#: ../inc/settings.php:81
 msgid "Enable login captcha"
-msgstr "کد امنیتی را در فرم ورود فعال کن!"
+msgstr "کد امنیتی فرم ورود"
 
-#: ../inc/settings.php:83
+#: ../inc/settings.php:84
 msgid "This option enables captcha on login form."
 msgstr "با فعال کردن این گزینه، می توانید کد امنیتی را در فرم ورود، فعال کنید."
 
-#: ../inc/settings.php:88
+#: ../inc/settings.php:89
 msgid "Enable register captcha"
-msgstr "کد امنیتی را در فرم نام نویسی فعال کن!"
+msgstr "کد امنیتی فرم نام نویسی"
 
-#: ../inc/settings.php:91
+#: ../inc/settings.php:92
 msgid "This option enables captcha on registration form."
 msgstr ""
 "با فعال کردن این گزینه، می توانید کد امنیتی را در فرم نام نویسی، فعال کنید."
 
-#: ../inc/settings.php:96
+#: ../inc/settings.php:97
 msgid "Enable lostpass captcha"
-msgstr "کد امنیتی را در فرم بازیابی رمز، فعال کن!"
+msgstr "کد امنیتی فرم بازیابی رمز"
 
-#: ../inc/settings.php:99
+#: ../inc/settings.php:100
 msgid "This option enables captcha on lostpass form."
 msgstr ""
 "با فعال کردن این گزینه، می توانید کد امنیتی را در فرم بازیابی رمز، فعال کنید."
 
-#: ../inc/settings.php:104
+#: ../inc/settings.php:105
+msgid "Captcha Font"
+msgstr "فونت کد امنیتی"
+
+#: ../inc/settings.php:115
+msgid "Select you favorite Captcha font."
+msgstr "شما می توانید فونت دلخواه خود را در کد امنیتی انتخاب کنید."
+
+#: ../inc/settings.php:120
 msgid "Default buttons"
 msgstr "طرح دکمه پیشفرض"
 
-#: ../inc/settings.php:113
+#: ../inc/settings.php:129
 msgid "choose your button style."
 msgstr "یک طرح را برای دکمه ورود انتخاب کنید"
 
-#: ../inc/settings.php:119
+#: ../inc/settings.php:135
 msgid "Button sizes"
 msgstr "اندازه دکمه پیوند"
 
-#: ../inc/settings.php:125
+#: ../inc/settings.php:141
 msgid "choose your button size."
 msgstr "یک سایز را برای دکمه ورود انتخاب کنید."
 
-#: ../inc/settings.php:131
+#: ../inc/settings.php:147
 msgid "login redirect URL"
 msgstr "لینک تغییر مسیر ورود"
 
-#: ../inc/settings.php:136
+#: ../inc/settings.php:152
 msgid "Registration redirect URL"
 msgstr "لینک تغییر مسیر عضویت"
 
-#: ../inc/settings.php:143
+#: ../inc/settings.php:159
 msgid "Like this plugin?"
 msgstr "از این افزونه خوشتون اومد؟"
 
-#: ../inc/settings.php:146
+#: ../inc/settings.php:162
 msgid ""
 "Show your support by Rating 5 Star in <a href=\"http://wordpress.org/plugins/"
 "ajax-bootmodal-login\"> Plugin Directory reviews</a>"
@@ -249,14 +259,14 @@ msgstr ""
 "با امتیاز 5 ستاره  در <a href=\"http://wordpress.org/plugins/ajax-bootmodal-"
 "login\">مخزن وردپرس</a> از این افزونه حمایت کنید..."
 
-#: ../inc/settings.php:147
+#: ../inc/settings.php:163
 msgid ""
 "Follow me on <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>"
 msgstr ""
 "دنیای وردپرس و برنامه نویسی را در  <a href=\"https://www.facebook.com/alimir."
 "ir\"> فیسبوک</a> دنبال کنید..."
 
-#: ../inc/settings.php:148
+#: ../inc/settings.php:164
 msgid ""
 "Plugin Author Blog: <a href=\"http://alimir.ir\"> Wordpress & Programming "
 "World.</a>"

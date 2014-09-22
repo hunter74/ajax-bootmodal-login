@@ -1,4 +1,5 @@
 <?php
+require_once('../../../../../wp-load.php');
 // Captcha image size
 $imageWidth = 320;
 $imageHeight= 50;
@@ -31,8 +32,8 @@ for( $i=0; $i < $charsNumber; $i++) {
 	
 	// Font properties
 	$randomFontSize = mt_rand(25, 30);	// Random character size to spice things a little bit :)
-	$randomFontAngle = mt_rand(-15,45);	// Twist the character a little bit
-	$fontType = "fonts/Blackout.ttf";	// This is the font we are using - we need to point to the ttf file here
+	$randomFontAngle = mt_rand(-25,25);	// Twist the character a little bit
+	$fontType = select_captcha_font();	// This is the font we are using - we need to point to the ttf file here
 	
 	// Pixels
 	$pixelX = $charWritePoint; // We will write a character at this X point
@@ -48,8 +49,6 @@ for( $i=0; $i < $charsNumber; $i++) {
 	$charWritePoint += $charImageStep;
 }
 
-// Add captcha text to session
-session_start();
 // Add currently generated captcha text to the session
 $_SESSION['login_captcha'] = $captchaText;
 

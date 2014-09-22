@@ -39,8 +39,23 @@ function default_sizes(){
 	return 'btn-mini';
 }
 
-// Update User View
+function select_captcha_font(){
+	$font_dir = 'fonts';
+	if (get_option( 'captcha_font' ) == 1 || get_option( 'captcha_font' ) == null)
+	return $font_dir.'/Blackout.ttf';
+	else if (get_option( 'captcha_font' )==2)
+	return $font_dir.'/1942.ttf';
+	else if (get_option( 'captcha_font' )==3)
+	return $font_dir.'/Anagram.ttf';
+	else if (get_option( 'captcha_font' )==4)
+	return $font_dir.'/axis.otf';
+	else if (get_option( 'captcha_font' )==5)
+	return $font_dir.'/BPdotsSquareBold.otf';
+	else if (get_option( 'captcha_font' )==6)
+	return $font_dir.'/GoodDog.otf';
+}
 
+// Update User View
 function alimir_bootModal_update_user_view() {
 	if (is_user_logged_in() && is_single()) :
 		
