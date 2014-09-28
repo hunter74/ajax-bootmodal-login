@@ -1,20 +1,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ajax BootModal Login\n"
-"POT-Creation-Date: 2014-06-23 00:26+0330\n"
-"PO-Revision-Date: 2014-07-25 13:11+0800\n"
-"Last-Translator: Coolwp <coolwp.com@gmail.com>\n"
+"POT-Creation-Date: 2014-09-28 22:28+0330\n"
+"PO-Revision-Date: 2014-09-28 22:28+0330\n"
+"Last-Translator: Alimir <info@alimir.ir>\n"
 "Language-Team: suoling.net <suifengtec@qq.com>\n"
 "Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: __;_e;_\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: ..\n"
+
+#: ../alimir-bootmodal-login.php:23 ../inc/functions.php:5
+#: ../inc/widget.php:27
+msgid "Login"
+msgstr "登录"
+
+#: ../alimir-bootmodal-login.php:24 ../inc/functions.php:11
+#: ../tmp/user-profile.php:37
+msgid "Profile"
+msgstr "个人资料"
 
 #: ../inc/authenticate.php:48 ../inc/authenticate.php:81
 #: ../inc/authenticate.php:126
@@ -113,121 +123,157 @@ msgid ""
 "disabled the mail() function."
 msgstr "电子邮件无法发送<br/>可能的原因：您的主机可能已经禁用了mail（）函数。"
 
-#: ../inc/functions.php:5 ../inc/widget.php:27
-msgid "Login"
-msgstr "登录"
+#: ../inc/functions.php:68 ../inc/functions.php:82
+msgid "Username"
+msgstr "用户名"
 
-#: ../inc/functions.php:11 ../tmp/user-profile.php:37
-msgid "Profile"
-msgstr "个人资料"
+#: ../inc/functions.php:70 ../inc/functions.php:84
+msgid "Password"
+msgstr "密码"
+
+#: ../inc/functions.php:72 ../inc/functions.php:86
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../inc/functions.php:74 ../inc/functions.php:88
+msgid "Username or Email"
+msgstr "用户名或电子邮件"
+
+#: ../inc/functions.php:76 ../inc/functions.php:90
+msgid "Captcha"
+msgstr "验证码"
 
 #: ../inc/settings.php:5
 msgid "BootModal Login Settings"
 msgstr "BootModal Login设置"
 
-#: ../inc/settings.php:29
+#: ../inc/settings.php:32
 msgid "Alimir Ajax BootModal Login"
 msgstr "Ajax BootModal Login"
 
-#: ../inc/settings.php:35
+#: ../inc/settings.php:38
 msgid ""
 "Using <code>[Alimir_BootModal_Login]</code> shortcode, to display ajax "
 "bootmodal login."
 msgstr "使用短代码<code>[Alimir_BootModal_Login]</ code>可以以显示登录表单。"
 
-#: ../inc/settings.php:38
+#: ../inc/settings.php:41
 msgid "Non-use BootStrap modules"
 msgstr "不使用引导程序模块"
 
-#: ../inc/settings.php:41
+#: ../inc/settings.php:44
 msgid "If your theme support bootstrap, Check this option."
 msgstr "如果你的主题支持bootstrap，勾选这个选项"
 
-#: ../inc/settings.php:46
+#: ../inc/settings.php:49
 msgid "Do you use from bootstrap +3?"
 msgstr "你是否使用bootstrap +3?"
 
-#: ../inc/settings.php:49
+#: ../inc/settings.php:52
 msgid "If you use from bootstrap +3 in your theme, Check this option."
 msgstr "如果你的主题使用bootstrap +3，选中此选项"
 
-#: ../inc/settings.php:54
+#: ../inc/settings.php:57
+msgid "Theme"
+msgstr ""
+
+#: ../inc/settings.php:63
+msgid "Select your favorite Theme for modal box."
+msgstr ""
+
+#: ../inc/settings.php:68
 msgid "Deactivate User Panel"
 msgstr "禁用用户面板"
 
-#: ../inc/settings.php:57
+#: ../inc/settings.php:71
 msgid "This option disables user modal profile button."
 msgstr "该选项可禁用用户资料按钮。"
 
-#: ../inc/settings.php:62
+#: ../inc/settings.php:76
 msgid "disable user registration?"
 msgstr "禁止用户注册？"
 
-#: ../inc/settings.php:65
+#: ../inc/settings.php:79
 msgid "This option disables user registration form."
 msgstr "该选项禁用用户登记表单"
 
-#: ../inc/settings.php:70
+#: ../inc/settings.php:84
+msgid "Label Setting"
+msgstr ""
+
+#: ../inc/settings.php:89
+msgid "Select Your favorite Setting: Placeholder/Lable"
+msgstr ""
+
+#: ../inc/settings.php:95
 msgid "Login Button Text"
 msgstr "登录按钮文本"
 
-#: ../inc/settings.php:75
+#: ../inc/settings.php:100
 msgid "Profile Button Text"
 msgstr "个人资料按钮文本"
 
-#: ../inc/settings.php:80
+#: ../inc/settings.php:105
 msgid "Enable login captcha"
 msgstr "启用登录验证码"
 
-#: ../inc/settings.php:83
+#: ../inc/settings.php:108
 msgid "This option enables captcha on login form."
 msgstr "此选项启用登录表单上的验证码。"
 
-#: ../inc/settings.php:88
+#: ../inc/settings.php:113
 msgid "Enable register captcha"
 msgstr "启用注册验证码"
 
-#: ../inc/settings.php:91
+#: ../inc/settings.php:116
 msgid "This option enables captcha on registration form."
 msgstr "此选项启用注册表单上的验证码"
 
-#: ../inc/settings.php:96
+#: ../inc/settings.php:121
 msgid "Enable lostpass captcha"
 msgstr "启用重置密码表单上的验证码"
 
-#: ../inc/settings.php:99
+#: ../inc/settings.php:124
 msgid "This option enables captcha on lostpass form."
 msgstr "此选项启用重置密码表单上的验证码"
 
-#: ../inc/settings.php:104
+#: ../inc/settings.php:129
+msgid "Captcha Font"
+msgstr ""
+
+#: ../inc/settings.php:139
+msgid "Select your favorite Captcha font."
+msgstr ""
+
+#: ../inc/settings.php:144
 msgid "Default buttons"
 msgstr "默认按钮"
 
-#: ../inc/settings.php:113
+#: ../inc/settings.php:153
 msgid "choose your button style."
 msgstr "选择你想要的按钮样式。"
 
-#: ../inc/settings.php:119
+#: ../inc/settings.php:159
 msgid "Button sizes"
 msgstr "按钮大小"
 
-#: ../inc/settings.php:125
+#: ../inc/settings.php:165
 msgid "choose your button size."
 msgstr "选择你想要的按钮大小。"
 
-#: ../inc/settings.php:131
+#: ../inc/settings.php:171
 msgid "login redirect URL"
 msgstr "登录后重定向到"
 
-#: ../inc/settings.php:136
+#: ../inc/settings.php:176
 msgid "Registration redirect URL"
 msgstr "注册后重定向到"
 
-#: ../inc/settings.php:141
+#: ../inc/settings.php:183
 msgid "Like this plugin?"
 msgstr "喜欢这个插件?"
 
-#: ../inc/settings.php:143
+#: ../inc/settings.php:186
 msgid ""
 "Show your support by Rating 5 Star in <a href=\"http://wordpress.org/plugins/"
 "ajax-bootmodal-login\"> Plugin Directory reviews</a>"
@@ -235,13 +281,13 @@ msgstr ""
 "请给它5星好评吧： <a href=\"http://wordpress.org/plugins/ajax-bootmodal-login"
 "\"> 去插件目录评价</a>"
 
-#: ../inc/settings.php:144
+#: ../inc/settings.php:187
 msgid ""
 "Follow me on <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>"
 msgstr ""
 "在 <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>上关注我"
 
-#: ../inc/settings.php:147
+#: ../inc/settings.php:188
 msgid ""
 "Plugin Author Blog: <a href=\"http://alimir.ir\"> Wordpress & Programming "
 "World.</a>"
@@ -267,19 +313,6 @@ msgstr "标题:"
 #: ../tmp/login-form.php:4
 msgid "User Login"
 msgstr "用户登录"
-
-#: ../tmp/login-form.php:9 ../tmp/registrer-form.php:9
-msgid "Username"
-msgstr "用户名"
-
-#: ../tmp/login-form.php:11
-msgid "Password"
-msgstr "密码"
-
-#: ../tmp/login-form.php:14 ../tmp/lostpass-form.php:13
-#: ../tmp/registrer-form.php:14
-msgid "Captcha"
-msgstr "验证码"
 
 #: ../tmp/login-form.php:15 ../tmp/lostpass-form.php:14
 #: ../tmp/registrer-form.php:15
@@ -320,10 +353,6 @@ msgstr ""
 "请输入您的用户名或电子邮件地址。您将通过电子邮件收到一个链接以创建一个新的密"
 "码。"
 
-#: ../tmp/lostpass-form.php:10
-msgid "Username or Email"
-msgstr "用户名或电子邮件"
-
 #: ../tmp/lostpass-form.php:17
 msgid "Log in"
 msgstr "登录"
@@ -331,10 +360,6 @@ msgstr "登录"
 #: ../tmp/registrer-form.php:4
 msgid "User Registration"
 msgstr "用户注册"
-
-#: ../tmp/registrer-form.php:11
-msgid "E-mail"
-msgstr "E-mail"
 
 #: ../tmp/registrer-form.php:18
 msgid "Already registered? Login"
@@ -436,9 +461,6 @@ msgstr "你最近没有浏览过任何文章。"
 
 #~ msgid "Upload an image for the banner."
 #~ msgstr "بارگذاری تصویر لوگو"
-
-#~ msgid "Settings"
-#~ msgstr "تنظیمات"
 
 #~ msgid "Login Page Message"
 #~ msgstr "پیغام صفحه ورود:"

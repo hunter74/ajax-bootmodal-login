@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ajax BootModal Login\n"
-"POT-Creation-Date: 2014-09-21 10:50+0330\n"
-"PO-Revision-Date: 2014-09-21 11:01+0330\n"
+"POT-Creation-Date: 2014-09-28 22:52+0330\n"
+"PO-Revision-Date: 2014-09-28 22:53+0330\n"
 "Last-Translator: Alimir <info@alimir.ir>\n"
 "Language-Team: Ali Mirzaei <info@alimir.ir>\n"
 "Language: fa_IR\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../alimir-bootmodal-login.php:21 ../inc/functions.php:5
+#: ../alimir-bootmodal-login.php:23 ../inc/functions.php:5
 #: ../inc/widget.php:27
 msgid "Login"
 msgstr "ورود"
 
-#: ../alimir-bootmodal-login.php:22 ../inc/functions.php:11
+#: ../alimir-bootmodal-login.php:24 ../inc/functions.php:11
 #: ../tmp/user-profile.php:37
 msgid "Profile"
 msgstr "پنل کاربری"
@@ -130,15 +130,35 @@ msgstr ""
 "ایمیل نمی‌تواند فرستاده شود.<br />دلیل ممکن: میزبان شما ممکن است تابع mail() "
 "را از کار انداخته باشد."
 
+#: ../inc/functions.php:75 ../inc/functions.php:89
+msgid "Username"
+msgstr "نام کاربری"
+
+#: ../inc/functions.php:77 ../inc/functions.php:91
+msgid "Password"
+msgstr "رمز عبور"
+
+#: ../inc/functions.php:79 ../inc/functions.php:93
+msgid "E-mail"
+msgstr "ایمیل"
+
+#: ../inc/functions.php:81 ../inc/functions.php:95
+msgid "Username or Email"
+msgstr "نام کاربری یا ایمیل"
+
+#: ../inc/functions.php:83 ../inc/functions.php:97
+msgid "Captcha"
+msgstr "کد امنیتی"
+
 #: ../inc/settings.php:5
 msgid "BootModal Login Settings"
 msgstr "فرم ورود بوت مدال"
 
-#: ../inc/settings.php:30
+#: ../inc/settings.php:33
 msgid "Alimir Ajax BootModal Login"
 msgstr "افزونه Ajax BootModal Login"
 
-#: ../inc/settings.php:36
+#: ../inc/settings.php:39
 msgid ""
 "Using <code>[Alimir_BootModal_Login]</code> shortcode, to display ajax "
 "bootmodal login."
@@ -146,112 +166,138 @@ msgstr ""
 "جهت نمایش فرم ورود بوت مودال، از شورت کد <code>[Alimir_BootModal_Login]</"
 "code> در قالب خود استفاده کنید..."
 
-#: ../inc/settings.php:39
+#: ../inc/settings.php:42
 msgid "Non-use BootStrap modules"
 msgstr "حذف ماژول های بوت استرپ"
 
-#: ../inc/settings.php:42
+#: ../inc/settings.php:45
 msgid "If your theme support bootstrap, Check this option."
 msgstr ""
 "اگر پوسته شما از ماژولهای بوت استرپ پشتیبانی میکند، این گزینه را انتخاب کنید."
 
-#: ../inc/settings.php:47
+#: ../inc/settings.php:50
 msgid "Do you use from bootstrap +3?"
 msgstr "آیا از بوت استرپ +3 استفاده می کنید؟"
 
-#: ../inc/settings.php:50
+#: ../inc/settings.php:53
 msgid "If you use from bootstrap +3 in your theme, Check this option."
 msgstr ""
 "اگر پوسته سایت شما از نسخه +3 بوت استرپ بهره گیری کرده است، تیک این گزینه را "
 "بزنید."
 
-#: ../inc/settings.php:55
+#: ../inc/settings.php:58
+msgid "Theme"
+msgstr "قالب افزونه"
+
+#: ../inc/settings.php:64
+msgid "Select your favorite Theme for modal box."
+msgstr ""
+"با استفاده از این گزینه، می توانید یک قالب دلخواه را در افزونه بارگذاری کنید."
+
+#: ../inc/settings.php:69
 msgid "Deactivate User Panel"
 msgstr "غیر فعال کردن پنل کاربری"
 
-#: ../inc/settings.php:58
+#: ../inc/settings.php:72
 msgid "This option disables user modal profile button."
 msgstr "با انتخاب این گزینه، می توانید پروفایل کاربری افزونه را غیر فعال کنید."
 
-#: ../inc/settings.php:63
+#: ../inc/settings.php:77
 msgid "disable user registration?"
 msgstr "غیر فعال سازی بخش ثبت نام"
 
-#: ../inc/settings.php:66
+#: ../inc/settings.php:80
 msgid "This option disables user registration form."
 msgstr "با استفاده از این گزینه می توانید فرم نام نویسی را غیر فعال کنید."
 
-#: ../inc/settings.php:71
+#: ../inc/settings.php:85
+msgid "Label Setting"
+msgstr "تنظیمات برچسب"
+
+#: ../inc/settings.php:90
+msgid "Select Your favorite Setting: Placeholder/Lable"
+msgstr "لطفا یک تنظیم را انتخاب کنید: Lable یا Placeholder"
+
+#: ../inc/settings.php:96
 msgid "Login Button Text"
 msgstr "متن دکمه ورود"
 
-#: ../inc/settings.php:76
+#: ../inc/settings.php:101
 msgid "Profile Button Text"
 msgstr "متن دکمه پروفایل"
 
-#: ../inc/settings.php:81
+#: ../inc/settings.php:106
 msgid "Enable login captcha"
 msgstr "کد امنیتی فرم ورود"
 
-#: ../inc/settings.php:84
+#: ../inc/settings.php:109
 msgid "This option enables captcha on login form."
 msgstr "با فعال کردن این گزینه، می توانید کد امنیتی را در فرم ورود، فعال کنید."
 
-#: ../inc/settings.php:89
+#: ../inc/settings.php:114
 msgid "Enable register captcha"
 msgstr "کد امنیتی فرم نام نویسی"
 
-#: ../inc/settings.php:92
+#: ../inc/settings.php:117
 msgid "This option enables captcha on registration form."
 msgstr ""
 "با فعال کردن این گزینه، می توانید کد امنیتی را در فرم نام نویسی، فعال کنید."
 
-#: ../inc/settings.php:97
+#: ../inc/settings.php:122
 msgid "Enable lostpass captcha"
 msgstr "کد امنیتی فرم بازیابی رمز"
 
-#: ../inc/settings.php:100
+#: ../inc/settings.php:125
 msgid "This option enables captcha on lostpass form."
 msgstr ""
 "با فعال کردن این گزینه، می توانید کد امنیتی را در فرم بازیابی رمز، فعال کنید."
 
-#: ../inc/settings.php:105
+#: ../inc/settings.php:130
 msgid "Captcha Font"
 msgstr "فونت کد امنیتی"
 
-#: ../inc/settings.php:115
-msgid "Select you favorite Captcha font."
+#: ../inc/settings.php:140
+msgid "Select your favorite Captcha font."
 msgstr "شما می توانید فونت دلخواه خود را در کد امنیتی انتخاب کنید."
 
-#: ../inc/settings.php:120
+#: ../inc/settings.php:145
 msgid "Default buttons"
 msgstr "طرح دکمه پیشفرض"
 
-#: ../inc/settings.php:129
+#: ../inc/settings.php:154
 msgid "choose your button style."
 msgstr "یک طرح را برای دکمه ورود انتخاب کنید"
 
-#: ../inc/settings.php:135
+#: ../inc/settings.php:160
 msgid "Button sizes"
 msgstr "اندازه دکمه پیوند"
 
-#: ../inc/settings.php:141
+#: ../inc/settings.php:166
 msgid "choose your button size."
 msgstr "یک سایز را برای دکمه ورود انتخاب کنید."
 
-#: ../inc/settings.php:147
+#: ../inc/settings.php:172
+msgid "Remove button block"
+msgstr "حذف دکمه بلوکی"
+
+#: ../inc/settings.php:175
+msgid "This option removes button block mode."
+msgstr ""
+"با فعال کردن این گزینه، می توانید حالت بلوکی دکمه ورود را غیر فعال کنید.."
+
+#: ../inc/settings.php:180
 msgid "login redirect URL"
 msgstr "لینک تغییر مسیر ورود"
 
-#: ../inc/settings.php:152
+#: ../inc/settings.php:185
 msgid "Registration redirect URL"
 msgstr "لینک تغییر مسیر عضویت"
 
-#: ../inc/settings.php:159
+#: ../inc/settings.php:192
 msgid "Like this plugin?"
 msgstr "از این افزونه خوشتون اومد؟"
 
-#: ../inc/settings.php:162
+#: ../inc/settings.php:195
 msgid ""
 "Show your support by Rating 5 Star in <a href=\"http://wordpress.org/plugins/"
 "ajax-bootmodal-login\"> Plugin Directory reviews</a>"
@@ -259,14 +305,14 @@ msgstr ""
 "با امتیاز 5 ستاره  در <a href=\"http://wordpress.org/plugins/ajax-bootmodal-"
 "login\">مخزن وردپرس</a> از این افزونه حمایت کنید..."
 
-#: ../inc/settings.php:163
+#: ../inc/settings.php:196
 msgid ""
 "Follow me on <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>"
 msgstr ""
 "دنیای وردپرس و برنامه نویسی را در  <a href=\"https://www.facebook.com/alimir."
 "ir\"> فیسبوک</a> دنبال کنید..."
 
-#: ../inc/settings.php:164
+#: ../inc/settings.php:197
 msgid ""
 "Plugin Author Blog: <a href=\"http://alimir.ir\"> Wordpress & Programming "
 "World.</a>"
@@ -293,19 +339,6 @@ msgstr "عنوان:"
 #: ../tmp/login-form.php:4
 msgid "User Login"
 msgstr "بخش ورود کاربران"
-
-#: ../tmp/login-form.php:9 ../tmp/registrer-form.php:9
-msgid "Username"
-msgstr "نام کاربری"
-
-#: ../tmp/login-form.php:11
-msgid "Password"
-msgstr "رمز عبور"
-
-#: ../tmp/login-form.php:14 ../tmp/lostpass-form.php:13
-#: ../tmp/registrer-form.php:14
-msgid "Captcha"
-msgstr "کد امنیتی"
 
 #: ../tmp/login-form.php:15 ../tmp/lostpass-form.php:14
 #: ../tmp/registrer-form.php:15
@@ -346,10 +379,6 @@ msgstr ""
 "شناسه یا ایمیل خود را‌ وارد کنید. شما از طریق ایمیل، پیوندی برای تنظیم رمز "
 "تازه دریافت خواهید کرد."
 
-#: ../tmp/lostpass-form.php:10
-msgid "Username or Email"
-msgstr "نام کاربری یا ایمیل"
-
 #: ../tmp/lostpass-form.php:17
 msgid "Log in"
 msgstr "ورود"
@@ -357,10 +386,6 @@ msgstr "ورود"
 #: ../tmp/registrer-form.php:4
 msgid "User Registration"
 msgstr "نام نویسی"
-
-#: ../tmp/registrer-form.php:11
-msgid "E-mail"
-msgstr "ایمیل"
 
 #: ../tmp/registrer-form.php:18
 msgid "Already registered? Login"
@@ -462,9 +487,6 @@ msgstr "شما هنوز هیچ پستی را مشاهده نکرده اید."
 
 #~ msgid "Upload an image for the banner."
 #~ msgstr "بارگذاری تصویر لوگو"
-
-#~ msgid "Settings"
-#~ msgstr "تنظیمات"
 
 #~ msgid "Login Page Message"
 #~ msgstr "پیغام صفحه ورود:"

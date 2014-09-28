@@ -10,8 +10,10 @@ function alimir_bootModal_create_menu() {
 function alimir_bootModal_register_mysettings() {
 	register_setting( 'alimir-bootModal-settings-group', 'option_checkbox' );	
 	register_setting( 'alimir-bootModal-settings-group', 'option_bs3patch' );	
+	register_setting( 'alimir-bootModal-settings-group', 'modal_theme' );	
 	register_setting( 'alimir-bootModal-settings-group', 'option_usermodal' );	
 	register_setting( 'alimir-bootModal-settings-group', 'can_register_option' );	
+	register_setting( 'alimir-bootModal-settings-group', 'lable_setting' );	
 	register_setting( 'alimir-bootModal-settings-group', 'button_text' );	
 	register_setting( 'alimir-bootModal-settings-group', 'button_text2' );	
 	register_setting( 'alimir-bootModal-settings-group', 'enable_login_captcha' );	
@@ -20,6 +22,7 @@ function alimir_bootModal_register_mysettings() {
 	register_setting( 'alimir-bootModal-settings-group', 'captcha_font' );	
 	register_setting( 'alimir-bootModal-settings-group', 'default_buttons' );
 	register_setting( 'alimir-bootModal-settings-group', 'default_sizes' );
+	register_setting( 'alimir-bootModal-settings-group', 'remove_btn_block' );
 	register_setting( 'alimir-bootModal-settings-group', 'alimir_login_redirect' );
 	register_setting( 'alimir-bootModal-settings-group', 'alimir_register_redirect' );
 }
@@ -52,6 +55,17 @@ function alimir_bootModal_settings_page() {
         </tr>
 		
         <tr valign="top">
+        <th scope="row"><?php _e('Theme','alimir'); ?></th>
+        <td>
+		<select name="modal_theme">
+            <option value="1" <?php selected( get_option( 'modal_theme' ), 1 ); ?>>Default</option>
+            <option value="2" <?php selected( get_option( 'modal_theme' ), 2 ); ?>>Bootstrap UI Kit</option>
+		</select>
+		<p class="description"><?php _e('Select your favorite Theme for modal box.','alimir'); ?></p>
+		</td>
+        </tr>		
+		
+        <tr valign="top">
         <th scope="row"><?php _e('Deactivate User Panel','alimir'); ?></th>
         <td>
 		<input name="option_usermodal" type="checkbox" value="1" <?php checked( '1', get_option( 'option_usermodal' ) ); ?> />
@@ -66,6 +80,17 @@ function alimir_bootModal_settings_page() {
 		<p class="description"><?php _e('This option disables user registration form.','alimir'); ?></p>
 		</td>
         </tr>
+		
+        <tr valign="top">
+        <th scope="row"><?php _e('Label Setting','alimir'); ?></th>
+		<td>
+		<fieldset>
+		<label><input name="lable_setting" type="radio" value="0" <?php checked( '0', get_option( 'lable_setting' ) ); ?> />Label</label>
+		<label><input name="lable_setting" type="radio" value="1" <?php checked( '1', get_option( 'lable_setting' ) ); ?> />Placeholder</label>
+		<p class="description"><?php _e('Select Your favorite Setting: Placeholder/Lable','alimir'); ?></p>
+		</fieldset>
+		</td>
+        </tr>		
 		
         <tr valign="top">
         <th scope="row"><?php _e('Login Button Text','alimir'); ?></th>
@@ -112,9 +137,9 @@ function alimir_bootModal_settings_page() {
             <option value="5" <?php selected( get_option( 'captcha_font' ), 5 ); ?>>BPdotsSquareBold</option>
             <option value="6" <?php selected( get_option( 'captcha_font' ), 6 ); ?>>GoodDog</option>
 		</select>
-		<p class="description"><?php _e('Select you favorite Captcha font.','alimir'); ?></p>
+		<p class="description"><?php _e('Select your favorite Captcha font.','alimir'); ?></p>
 		</td>
-        </tr>		
+        </tr>
 		
         <tr valign="top">
         <th scope="row"><?php _e('Default buttons','alimir'); ?></th>
@@ -140,6 +165,14 @@ function alimir_bootModal_settings_page() {
 		<label><input name="default_sizes" type="radio" value="2" <?php checked( '2', get_option( 'default_sizes' ) ); ?> />btn-mini</label>
 		<p class="description"><?php _e('choose your button size.','alimir'); ?></p>
 		</fieldset>
+		</td>
+        </tr>
+		
+        <tr valign="top">
+        <th scope="row"><?php _e('Remove button block','alimir'); ?></th>
+        <td>
+		<input name="remove_btn_block" type="checkbox" value="1" <?php checked( '1', get_option( 'remove_btn_block' ) ); ?> />
+		<p class="description"><?php _e('This option removes button block mode.','alimir'); ?></p>
 		</td>
         </tr>
 		

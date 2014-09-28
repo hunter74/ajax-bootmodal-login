@@ -5,6 +5,8 @@ function alimir_bootModal_enqueue_script() {
 	if (get_option( 'option_checkbox' ) != 1){
 	//bootstrap.css file
 	wp_enqueue_style( 'bootstrap', plugins_url('assets/css/bootstrap.min.css', dirname(__FILE__)) );
+	//modal theme file
+	select_modal_theme();
 	//check rtl support
 	if (is_rtl()):
 	wp_enqueue_style( 'rtl-bootstrap', plugins_url('assets/css/rtl-bootstrap.min.css', dirname(__FILE__)) );

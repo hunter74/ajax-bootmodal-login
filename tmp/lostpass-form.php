@@ -7,12 +7,12 @@
   <p class="alert" data-alert="alert"><?php _e('Please enter your username or email address. You will receive a link to create a new password via email.'); ?></p>
   	<div class="status"></div>
     <div class="row-fluid control-group">
-		<label><?php _e('Username or Email','alimir'); ?>
-        <input type="text" name="lost_pass" id="lost_pass" class="span12" value="" /></label>
+		<label><?php print_placeholder_or_label('UsernameEmail','lable'); ?>
+        <input type="text" name="lost_pass" id="lost_pass" class="span12" value="" <?php print_placeholder_or_label('UsernameEmail','placeholder'); ?>/></label>
 		<?php if (get_option( 'enable_lostpass_captcha' ) == 1):?>
-		<label><?php _e('Captcha','alimir'); ?>
+		<label><?php print_placeholder_or_label('Captcha','lable'); ?>
 		<img style="margin:5px auto;display:block;" alt="captcha" id="lostpass_captcha_img" data-toggle="tooltip" title="<?php _e('Click to refresh captcha','alimir'); ?>" src="<?php echo plugins_url( 'captcha/lost-captcha.php' , __FILE__ );?>" />
-        <input type="text" name="lostpass_captcha" id="lostpass_captcha" class="span12" value="" /></label>
+        <input type="text" name="lostpass_captcha" id="lostpass_captcha" class="span12" value="" <?php print_placeholder_or_label('Captcha','placeholder'); ?>/></label>
 		<?php endif; ?>
 		<span class="label label-info"><a href="#login_tab" data-toggle="tab"><?php _e('Log in','alimir'); ?></a></span>
     </div>

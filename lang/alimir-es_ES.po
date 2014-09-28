@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ajax BootModal Login v1.2.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-25 17:37+0330\n"
-"PO-Revision-Date: 2014-08-25 17:38+0330\n"
+"POT-Creation-Date: 2014-09-28 22:29+0330\n"
+"PO-Revision-Date: 2014-09-28 22:29+0330\n"
 "Last-Translator: Alimir <info@alimir.ir>\n"
 "Language-Team: \n"
 "Language: es_UY\n"
@@ -18,6 +18,16 @@ msgstr ""
 "X-Poedit-Basepath: ../\n"
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
+
+# @ alimir
+#: alimir-bootmodal-login.php:23 inc/functions.php:5 inc/widget.php:27
+msgid "Login"
+msgstr "Login"
+
+# @ alimir
+#: alimir-bootmodal-login.php:24 inc/functions.php:11 tmp/user-profile.php:37
+msgid "Profile"
+msgstr "Perfil"
 
 # @ alimir
 #: inc/authenticate.php:48 inc/authenticate.php:81 inc/authenticate.php:126
@@ -139,14 +149,29 @@ msgstr ""
 "de mail() en el servidor."
 
 # @ alimir
-#: inc/functions.php:5 inc/widget.php:27
-msgid "Login"
-msgstr "Login"
+#: inc/functions.php:68 inc/functions.php:82
+msgid "Username"
+msgstr "Usuario"
 
 # @ alimir
-#: inc/functions.php:11 tmp/user-profile.php:37
-msgid "Profile"
-msgstr "Perfil"
+#: inc/functions.php:70 inc/functions.php:84
+msgid "Password"
+msgstr "Contraseña"
+
+# @ alimir
+#: inc/functions.php:72 inc/functions.php:86
+msgid "E-mail"
+msgstr "E-mail"
+
+# @ alimir
+#: inc/functions.php:74 inc/functions.php:88
+msgid "Username or Email"
+msgstr "Usuario o Email"
+
+# @ alimir
+#: inc/functions.php:76 inc/functions.php:90
+msgid "Captcha"
+msgstr "Captcha"
 
 # @ alimir
 #: inc/settings.php:5
@@ -154,12 +179,12 @@ msgid "BootModal Login Settings"
 msgstr "BootModal Opciones de Login"
 
 # @ alimir
-#: inc/settings.php:29
+#: inc/settings.php:32
 msgid "Alimir Ajax BootModal Login"
 msgstr ""
 
 # @ alimir
-#: inc/settings.php:35
+#: inc/settings.php:38
 msgid ""
 "Using <code>[Alimir_BootModal_Login]</code> shortcode, to display ajax "
 "bootmodal login."
@@ -168,122 +193,147 @@ msgstr ""
 "ajax bootmodal login."
 
 # @ alimir
-#: inc/settings.php:38
+#: inc/settings.php:41
 msgid "Non-use BootStrap modules"
 msgstr "No usar modulos de Bootstrap"
 
 # @ alimir
-#: inc/settings.php:41
+#: inc/settings.php:44
 msgid "If your theme support bootstrap, Check this option."
 msgstr "Si su theme soporta bootstrap, chequee esta opción"
 
 # @ alimir
-#: inc/settings.php:46
+#: inc/settings.php:49
 msgid "Do you use from bootstrap +3?"
 msgstr "¿Tiene bootstrap +3?"
 
 # @ alimir
-#: inc/settings.php:49
+#: inc/settings.php:52
 msgid "If you use from bootstrap +3 in your theme, Check this option."
 msgstr "Si usa bootstrap +3 en su theme, chequee esta opción."
 
+#: inc/settings.php:57
+msgid "Theme"
+msgstr ""
+
+#: inc/settings.php:63
+msgid "Select your favorite Theme for modal box."
+msgstr ""
+
 # @ alimir
-#: inc/settings.php:54
+#: inc/settings.php:68
 msgid "Deactivate User Panel"
 msgstr "Desactivar Panel de Usuario"
 
 # @ alimir
-#: inc/settings.php:57
+#: inc/settings.php:71
 msgid "This option disables user modal profile button."
 msgstr "Esta opción deshabilita el boton profile del usuario"
 
 # @ alimir
-#: inc/settings.php:62
+#: inc/settings.php:76
 msgid "disable user registration?"
 msgstr "Deshabilitar el registro de usuario"
 
 # @ alimir
-#: inc/settings.php:65
+#: inc/settings.php:79
 msgid "This option disables user registration form."
 msgstr "Deshabilitar el formulario de registro"
 
+#: inc/settings.php:84
+msgid "Label Setting"
+msgstr ""
+
+#: inc/settings.php:89
+msgid "Select Your favorite Setting: Placeholder/Lable"
+msgstr ""
+
 # @ alimir
-#: inc/settings.php:70
+#: inc/settings.php:95
 msgid "Login Button Text"
 msgstr "Texto del botón Login"
 
 # @ alimir
-#: inc/settings.php:75
+#: inc/settings.php:100
 msgid "Profile Button Text"
 msgstr "Texto del botón Profile"
 
 # @ alimir
-#: inc/settings.php:80
+#: inc/settings.php:105
 msgid "Enable login captcha"
 msgstr "Habilitar captcha para el login"
 
 # @ alimir
-#: inc/settings.php:83
+#: inc/settings.php:108
 msgid "This option enables captcha on login form."
 msgstr "Habilitar captcha en el formulario de login"
 
 # @ alimir
-#: inc/settings.php:88
+#: inc/settings.php:113
 msgid "Enable register captcha"
 msgstr "Habilitar captcha para registro de usuario"
 
 # @ alimir
-#: inc/settings.php:91
+#: inc/settings.php:116
 msgid "This option enables captcha on registration form."
 msgstr "Habilitar captcha en el formulario de registro"
 
 # @ alimir
-#: inc/settings.php:96
+#: inc/settings.php:121
 msgid "Enable lostpass captcha"
 msgstr "Habilitar captcha para pérdida de contraseña"
 
 # @ alimir
-#: inc/settings.php:99
+#: inc/settings.php:124
 msgid "This option enables captcha on lostpass form."
 msgstr "Habilitar captcha para formulario de pérdida de contraseña"
 
 # @ alimir
-#: inc/settings.php:104
+#: inc/settings.php:129
+msgid "Captcha Font"
+msgstr ""
+
+#: inc/settings.php:139
+msgid "Select your favorite Captcha font."
+msgstr ""
+
+# @ alimir
+#: inc/settings.php:144
 msgid "Default buttons"
 msgstr "Botones por defecto"
 
 # @ alimir
-#: inc/settings.php:113
+#: inc/settings.php:153
 msgid "choose your button style."
 msgstr "elija el estilo de los botones"
 
 # @ alimir
-#: inc/settings.php:119
+#: inc/settings.php:159
 msgid "Button sizes"
 msgstr "Tamaño de botones"
 
 # @ alimir
-#: inc/settings.php:125
+#: inc/settings.php:165
 msgid "choose your button size."
 msgstr "elija el tamaño de los botones"
 
 # @ alimir
-#: inc/settings.php:131
+#: inc/settings.php:171
 msgid "login redirect URL"
 msgstr "re direccionamiento después del login"
 
 # @ alimir
-#: inc/settings.php:136
+#: inc/settings.php:176
 msgid "Registration redirect URL"
 msgstr "Re direccionamiento después del registro de usuario"
 
 # @ alimir
-#: inc/settings.php:141
+#: inc/settings.php:183
 msgid "Like this plugin?"
 msgstr "¿Te gusta este plugin?"
 
 # @ alimir
-#: inc/settings.php:143
+#: inc/settings.php:186
 msgid ""
 "Show your support by Rating 5 Star in <a href=\"http://wordpress.org/plugins/"
 "ajax-bootmodal-login\"> Plugin Directory reviews</a>"
@@ -292,14 +342,14 @@ msgstr ""
 "plugins/ajax-bootmodal-login\"> Directorio de  Plugins</a>"
 
 # @ alimir
-#: inc/settings.php:144
+#: inc/settings.php:187
 msgid ""
 "Follow me on <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>"
 msgstr ""
 "Seguime en <a href=\"https://www.facebook.com/alimir.ir\"> Facebook</a>"
 
 # @ alimir
-#: inc/settings.php:147
+#: inc/settings.php:188
 msgid ""
 "Plugin Author Blog: <a href=\"http://alimir.ir\"> Wordpress & Programming "
 "World.</a>"
@@ -330,21 +380,6 @@ msgstr ""
 #: tmp/login-form.php:4
 msgid "User Login"
 msgstr "Login de Usuario"
-
-# @ alimir
-#: tmp/login-form.php:9 tmp/registrer-form.php:9
-msgid "Username"
-msgstr "Usuario"
-
-# @ alimir
-#: tmp/login-form.php:11
-msgid "Password"
-msgstr "Contraseña"
-
-# @ alimir
-#: tmp/login-form.php:14 tmp/lostpass-form.php:13 tmp/registrer-form.php:14
-msgid "Captcha"
-msgstr "Captcha"
 
 # @ alimir
 #: tmp/login-form.php:15 tmp/lostpass-form.php:14 tmp/registrer-form.php:15
@@ -389,11 +424,6 @@ msgid ""
 msgstr ""
 
 # @ alimir
-#: tmp/lostpass-form.php:10
-msgid "Username or Email"
-msgstr "Usuario o Email"
-
-# @ alimir
 #: tmp/lostpass-form.php:17
 msgid "Log in"
 msgstr "Login"
@@ -402,11 +432,6 @@ msgstr "Login"
 #: tmp/registrer-form.php:4
 msgid "User Registration"
 msgstr "Registro de Usuario"
-
-# @ alimir
-#: tmp/registrer-form.php:11
-msgid "E-mail"
-msgstr "E-mail"
 
 # @ alimir
 #: tmp/registrer-form.php:18

@@ -30,6 +30,13 @@ function default_buttons(){
 	return 'btn-inverse';
 }
 
+function btn_block(){
+	if (get_option( 'remove_btn_block' )==1)
+	return '';
+	else if (get_option( 'remove_btn_block' )==0)
+	return 'btn-block';
+}
+
 function default_sizes(){
 	if (get_option( 'default_sizes' )==0)
 	return 'btn-large';
@@ -53,6 +60,47 @@ function select_captcha_font(){
 	return $font_dir.'/BPdotsSquareBold.otf';
 	else if (get_option( 'captcha_font' )==6)
 	return $font_dir.'/GoodDog.otf';
+}
+
+function select_modal_theme(){
+	if (get_option( 'modal_theme' ) == 1 || get_option( 'modal_theme' ) == null)
+	return null;
+	else if (get_option( 'modal_theme' )==2)
+	return wp_enqueue_style( 'uikit', plugins_url('assets/css/uikit.css', dirname(__FILE__)) );
+}
+
+function print_placeholder_or_label($string,$type){
+	if ((get_option( 'lable_setting' ) == 0 || get_option( 'lable_setting' ) == null) && $type == 'lable'){
+	if ($string == 'Username')
+	echo __('Username','alimir');
+	else if ($string == 'Password')
+	echo __('Password','alimir');
+	else if ($string == 'E-mail')
+	echo __('E-mail','alimir');
+	else if ($string == 'UsernameEmail')
+	echo __('Username or Email','alimir');
+	else if ($string == 'Captcha')
+	echo __('Captcha','alimir');
+	else
+	echo '';
+	}
+	else if (get_option( 'lable_setting' ) == 1 && $type == 'placeholder'){
+	if ($string == 'Username')
+	echo 'placeholder="' . __('Username','alimir') . '"';
+	else if ($string == 'Password')
+	echo 'placeholder="' . __('Password','alimir'). '"';
+	else if ($string == 'E-mail')
+	echo 'placeholder="' . __('E-mail','alimir') . '"';
+	else if ($string == 'UsernameEmail')
+	echo 'placeholder="' . __('Username or Email','alimir') . '"';
+	else if ($string == 'Captcha')
+	echo 'placeholder="' . __('Captcha','alimir') . '"';
+	else
+	echo '';	
+	}
+	else
+	return '';
+
 }
 
 // Update User View
