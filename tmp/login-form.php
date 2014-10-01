@@ -6,14 +6,14 @@
   <div class="modal-body">
   	<div class="status"></div>
     <div class="row-fluid control-group">
-		<label><?php print_placeholder_or_label('Username','lable'); ?>
-        <input type="text" name="username" id="username" class="span12" value="" <?php print_placeholder_or_label('Username','placeholder'); ?>/></label>
-		<label><?php print_placeholder_or_label('Password','lable'); ?>
-        <input type="password" name="password" id="password" class="span12" value="" <?php print_placeholder_or_label('Password','placeholder'); ?>/></label>
+		<label><?php print_placeholder_or_label(__('Username','alimir'),'lable'); ?>
+        <input type="text" name="username" id="username" class="span12" value="" <?php print_placeholder_or_label(__('Username','alimir'),'placeholder'); ?>/></label>
+		<label><?php print_placeholder_or_label( __('Password','alimir'),'lable'); ?>
+        <input type="password" name="password" id="password" class="span12" value="" <?php print_placeholder_or_label( __('Password','alimir'),'placeholder'); ?>/></label>
 		<?php if (get_option( 'enable_login_captcha' ) == 1):?>
-		<label><?php print_placeholder_or_label('Captcha','lable'); ?>
+		<label><?php print_placeholder_or_label(__('Captcha','alimir'),'lable'); ?>
 		<img style="margin:5px auto;display:block;" alt="captcha" id="login_captcha_img" data-toggle="tooltip" title="<?php _e('Click to refresh captcha','alimir'); ?>" src="<?php echo plugins_url( 'captcha/log-captcha.php' , __FILE__ );?>" />
-        <input type="text" name="login_captcha" id="login_captcha" class="span12" value="" <?php print_placeholder_or_label('Captcha','placeholder'); ?>/></label>
+        <input type="text" name="login_captcha" id="login_captcha" class="span12" value="" <?php print_placeholder_or_label(__('Captcha','alimir'),'placeholder'); ?>/></label>
 		<?php endif; ?>
 		<label class="checkbox">
 		<input name="rememberme" type="checkbox" id="rememberme" value="forever"><?php _e('Remember Me','alimir'); ?>

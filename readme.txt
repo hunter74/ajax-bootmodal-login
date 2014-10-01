@@ -5,7 +5,7 @@ Author: Ali Mirzaei
 Tags: login,wordpress Login,Wordpress ABM-Login Plugin,ABM Login,bootstrap login form,custom login widget,wordpress modal login,wp ajax login,wordpress login with bootstrap,ajaxy
 Requires at least: 3.1
 Tested up to: 4.0
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,8 @@ Ajax BootModal Login is a WordPress plugin that is powered by bootstrap and ajax
 *   Chinese (Thanks suifengtec)
 *   Spanish (Thanks Leandro)
 *   French (Thanks Benjamin Pinoteau)
+*   Arabic (Thanks Mohamad Abou'asy)
+*   Serbian (Thanks Relja Vranes)
 
 = Support =
 Changelog: <a href="http://preview.alimir.ir/whats-going-on-ajax-bootmodal-login-1-2-2/" target="_blank">What's going on Ajax Bootmodal Login?</a><br />
@@ -52,6 +54,11 @@ Follow me on: <a href="https://www.facebook.com/alimir.ir" target="_blank">Faceb
 Screenshots are available in <a href="http://preview.alimir.ir/ajax-bootmodal-login-plugin/" target="_blank">here</a>
 
 == Changelog ==
+
+= 1.4.3 =
+* Added Arabic (ar) language. (Thanks to Mohamad Abou'asy)
+* Added Serbian (sr_RS) language. (Thanks to Relja Vranes)
+* Modified some changes on label setting function.
 
 = 1.4.2 =
 * Added setting to select modal theme.
