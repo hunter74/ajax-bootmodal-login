@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajax BootModal Login v1.2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-12 17:06+0100\n"
+"PO-Revision-Date: 2014-12-12 17:42+0100\n"
+"Last-Translator: Alimir <info@alimir.ir>\n"
+"Language-Team: \n"
+"Language: es_UY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ alimir
+#: inc/authenticate.php:48 inc/authenticate.php:126
+msgid ""
+"<p class=\"alert alert-info\" data-alert=\"alert\">Please fill all the "
+"fields.</p>"
+msgstr ""
+"<p class=\"alert alert-info\" data-alert=\"alert\">Bitte füllen Sie ale "
+"Felder aus.</p>"
+
+# @ alimir
+#: inc/authenticate.php:51 inc/authenticate.php:84 inc/authenticate.php:129
+msgid ""
+"<p class=\"alert alert-error\" data-alert=\"alert\">captcha invalid.</p>"
+msgstr ""
+"<p class=\"alert alert-error\" data-alert=\"alert\">Eingetragener Text "
+"falsch.</p>"
+
+# @ alimir
+#: inc/authenticate.php:58
+#, fuzzy
+msgid ""
+"<p class=\"alert alert-error\" data-alert=\"alert\"><strong>Fehler</strong>: "
+"Falscher Benutzername oder Passwort.</p>"
+msgstr ""
+"<p class=\"alert alert-error\" data-alert=\"alert\"><strong>FEHLER</strong>: "
+"Usuario o contraseña incorrectos.</p>"
+
+# @ alimir
+#: inc/authenticate.php:62
+#, fuzzy
+msgid ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Login erfolgreich, "
+"Weiterleitung ...</p>"
+msgstr ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Login erfolgreich, wir "
+"leiten Sie weiter...</p>"
+
+# @ alimir
+#: inc/authenticate.php:81
+#, fuzzy
+msgid ""
+"<p class=\"alert alert-info\" data-alert=\"alert\">Bitte füllen Sie alle "
+"Felder aus.</p>"
+msgstr ""
+"<p class=\"alert alert-info\" data-alert=\"alert\">Bitte füllen Sie ale "
+"Felder aus.</p>"
+
+# @ alimir
+#: inc/authenticate.php:104
+msgid ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Registration complete. "
+"Please check your e-mail.</p>"
+msgstr ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Registrierung "
+"erfolreich.</p>"
+
+# @ alimir
+#: inc/authenticate.php:156
+msgid ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Password Reset. Please "
+"check your email.</p>"
+msgstr ""
+"<p class=\"alert alert-success\" data-alert=\"alert\">Passwort wurde "
+"erneuert. Bitte überprüfen Sie Ihr E-Mailkonto.</p>"
+
+# @ alimir
+#: inc/authenticate.php:171
+msgid "Please enter a username or e-mail address."
+msgstr "Bitte geben Sie ein Benutzername oder ein Passwort ein."
+
+# @ alimir
+#: inc/authenticate.php:175
+msgid "There is no user registered with that email address."
+msgstr "Kein Benutzerkonto mit entsprechender E-Mail Adresse gefunden."
+
+# @ alimir
+#: inc/authenticate.php:185
+msgid "Invalid username or e-mail."
+msgstr "Benutzername oder Passwort nicht korrekt."
+
+# @ alimir
+#: inc/authenticate.php:197
+msgid "Password reset is not allowed for this user"
+msgstr "Das erneuern des Passwortes ist nicht erlaubt für diesen Benutzer."
+
+# @ alimir
+#: inc/authenticate.php:210
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Für den folgenden Account wird ein neues Passwort angefordert:"
+
+# @ default
+#: inc/authenticate.php:212
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+# @ alimir
+#: inc/authenticate.php:213
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Bitte ignorieren Sie diese E-Mail, falls dies ein Fehler war."
+
+# @ alimir
+#: inc/authenticate.php:214
+msgid "To reset your password, visit the following address:"
+msgstr "Um Ihr Passwort zu ändern, klicken Sie auf folgenden Link:"
+
+# @ alimir
+#: inc/authenticate.php:216
+msgid "powered by < http://wordpress.org/plugins/ajax-bootmodal-login >"
+msgstr "powered by < http://wordpress.org/plugins/ajax-bootmodal-login >"
+
+# @ alimir
+#: inc/authenticate.php:217
+msgid "Ali Mizraei < http://alimir.ir >"
+msgstr ""
+
+# @ default
+#: inc/authenticate.php:225
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+# @ alimir
+#: inc/authenticate.php:230
+msgid ""
+"The e-mail could not be sent.<br />Possible reason: your host may have "
+"disabled the mail() function."
+msgstr ""
+"Die E-Mail wurde nicht versandt.<br />Möglicherweise besteht ein Problem mit "
+"dem Server."
+
+# @ alimir
+#: tmp/inc/recent-Viewed.php:1
+msgid "Recently Viewed Posts"
+msgstr "Zuletzt angesehene Beiträge"
+
+# @ alimir
+#: tmp/inc/recent-Viewed.php:13
+msgid "You have not viewed any posts recently."
+msgstr "Sie haben aktuell keine Beiträge angesehen."
+
+# @ alimir
+#: tmp/inc/recent-comments.php:1
+msgid "Recent Comments"
+msgstr "Aktuelle Komentare"
+
+# @ alimir
+#: tmp/inc/recent-comments.php:21
+msgid "You have not made any comment."
+msgstr "Sie haben noch kein Kommentar erstellt"
+
+#: tmp/login-form.php:4
+msgid "Login für Therapeuten & Ärzte"
+msgstr ""
+
+# @ alimir
+#: tmp/login-form.php:9 tmp/login-form.php:10 tmp/registrer-form.php:9
+#: tmp/registrer-form.php:10
+msgid "Username"
+msgstr "Benutzername"
+
+# @ alimir
+#: tmp/login-form.php:11 tmp/login-form.php:12
+msgid "Password"
+msgstr "Passwort"
+
+# @ alimir
+#: tmp/login-form.php:14 tmp/login-form.php:16 tmp/lostpass-form.php:13
+#: tmp/lostpass-form.php:15 tmp/registrer-form.php:14
+#: tmp/registrer-form.php:16
+msgid "Captcha"
+msgstr "Captcha"
+
+# @ alimir
+#: tmp/login-form.php:15 tmp/lostpass-form.php:14 tmp/registrer-form.php:15
+msgid "Click to refresh captcha"
+msgstr "Klicken Sie hier um einen neuen Captcha anzuzeigen"
+
+# @ alimir
+#: tmp/login-form.php:19
+msgid "Remember Me"
+msgstr "Login merken"
+
+# @ alimir
+#: tmp/login-form.php:22
+msgid "Not registered?"
+msgstr "Jetzt registrieren"
+
+# @ alimir
+#: tmp/login-form.php:24
+msgid "Lost your password?"
+msgstr "Passwort vergessen"
+
+# @ alimir
+#: tmp/login-form.php:28 tmp/lostpass-form.php:21 tmp/registrer-form.php:23
+msgid "loading..."
+msgstr "laden..."
+
+# @ alimir
+#: tmp/login-form.php:28 tmp/lostpass-form.php:21 tmp/registrer-form.php:23
+msgid "Submit"
+msgstr "Absenden"
+
+# @ alimir
+#: tmp/lostpass-form.php:4
+msgid "User LostPassword"
+msgstr "Passwort verloren"
+
+# @ default
+#: tmp/lostpass-form.php:7
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+# @ alimir
+#: tmp/lostpass-form.php:10 tmp/lostpass-form.php:11
+msgid "Username or Email"
+msgstr "Benutzername oder E-Mail"
+
+# @ alimir
+#: tmp/lostpass-form.php:17
+msgid "Log in"
+msgstr "Jetzt anmelden"
+
+#: tmp/registrer-form.php:4
+msgid "Registrierung: Therapeuten & Ärzte"
+msgstr ""
+
+# @ alimir
+#: tmp/registrer-form.php:11 tmp/registrer-form.php:12
+msgid "E-mail"
+msgstr "E-Mail"
+
+# @ alimir
+#: tmp/registrer-form.php:18
+msgid "Already registered? Login"
+msgstr "Bereits registriert? Anmelden"
+
+# @ alimir
+#: tmp/registrer-form.php:19
+msgid "A password will be emailed to you."
+msgstr "Ihr neues Passwort erhalten Sie per E-Mail."
+
+# @ alimir
+#: tmp/user-profile.php:8
+msgid "Welcome Dear"
+msgstr "Willkommen"
+
+# @ alimir
+#: tmp/user-profile.php:16
+msgid "User Name:"
+msgstr "Benutzername:"
+
+# @ alimir
+#: tmp/user-profile.php:17
+msgid "User ID:"
+msgstr "Benutzer ID:"
+
+# @ alimir
+#: tmp/user-profile.php:18
+msgid "Display Name:"
+msgstr "Angezeigter Name:"
+
+# @ alimir
+#: tmp/user-profile.php:19
+msgid "E-mail:"
+msgstr "E-Mail:"
+
+# @ alimir
+#: tmp/user-profile.php:37
+msgid "Profile"
+msgstr "zur Profilseite"
